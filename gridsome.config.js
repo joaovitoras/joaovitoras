@@ -8,7 +8,6 @@ module.exports = {
   siteName: 'joaovitoras (João Vitor A. S.) blog',
   siteDescription: 'Blog pessoal para coisas aleatórias que me da vontade de escrever',
   siteUrl: 'https://joaovitoras.github.io',
-  pathPrefix: '/joaovitoras.github.io',
   templates: {
     Post: '/:title',
     Tag: '/tag/:id'

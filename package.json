@@ -6,7 +6,7 @@
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "predeploy": "yarn build",
-    "deploy": "yarn gh-pages -b master -d dist"
+    "deploy": "yarn gh-pages -b master -d dist --repo git@github.com:joaovitoras/joaovitoras.github.io.git"
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
