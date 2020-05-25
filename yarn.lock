@@ -793,10 +793,10 @@
   dependencies:
     vue-analytics "^5.16.1"
 
-"@gridsome/remark-prismjs@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@gridsome/remark-prismjs/-/remark-prismjs-0.2.0.tgz#ffdab2045cfb85edd0ebfa9c1ab7e2c7bcf5c3c2"
-  integrity sha512-Hg7L+7Jcj1BSvzwYNSQ3X2VnfZNz6LK9hpZ3Z24ko1dr3FKcutWDT1qNbCSCKIOLoueNhjTNylHB/qnOWBEFuA==
+"@gridsome/remark-prismjs@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@gridsome/remark-prismjs/-/remark-prismjs-0.3.0.tgz#3a0a6f67ab518ff9d42b75c1f97f834806181d04"
+  integrity sha512-kwVcz2K7wunzgHnFKeGr+bvNfN1Q1PbOpYwEWXG+yn+SokXfPKjsu4KW0FBKOWD8eTwMlkyE7aqPVTxnD6BOMw==
   dependencies:
     escape-html "^1.0.3"
     hast-util-to-html "^6.0.2"
@@ -817,10 +817,10 @@
     mime-types "^2.1.21"
     slash "^2.0.0"
 
-"@gridsome/transformer-remark@^0.3.0":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@gridsome/transformer-remark/-/transformer-remark-0.3.4.tgz#7ecf37565ffb95001ed2cf7562ff1c42ac67ecbb"
-  integrity sha512-EYDfZs1JmpIfoXYszmxmzHNcg4YxcbBSjFWPm4CHpie6CXreNOmXErO2WZ5QvLscEu/B5bsno/3mAL30roCxyw==
+"@gridsome/transformer-remark@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gridsome/transformer-remark/-/transformer-remark-0.5.0.tgz#e872e91edc316205c507533395b8f1bc985185a1"
+  integrity sha512-uTVkc4BbQIuo9KzA4nchHhADHznLLyMXCTwSZ238xG2f5QWcsLtQRuPnKBID0nFx+9U6nvRE5YoC4FF2DBDU2A==
   dependencies:
     gray-matter "^4.0.2"
     hash-sum "^1.0.2"
@@ -4247,6 +4247,13 @@ gray-matter@^4.0.2:
     kind-of "^6.0.2"
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
+
+gridsome-plugin-remark-codesandbox@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-codesandbox/-/gridsome-plugin-remark-codesandbox-0.4.2.tgz#5c57e70d525dfe4e7b8497cd18fbdda1ee7debf9"
+  integrity sha512-ky1wQ7prYiihbZW5BvCKX8xKBeWukT7WzhQluurPS8Us54WatYNNKCe4beIiZJTJ9RV5rB13Ub8y/u0AzqzB6g==
+  dependencies:
+    unist-util-visit "^1.4.0"
 
 gridsome@^0.7.0:
   version "0.7.13"
