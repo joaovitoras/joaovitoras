@@ -82,6 +82,7 @@ no `@click`:
 ```
 
 Exemplo do modal funcionando no Vue:
+
 https://codesandbox.io/embed/weathered-feather-q08j9?autoresize=1&fontsize=14&hidenavigation=1&moduleview=1&theme=dark
 
 Esse é meu primeiro artigo técnico, aceito feedbacks!
