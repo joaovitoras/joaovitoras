@@ -6,16 +6,13 @@ tags: ['Vue', 'Dev Experience', 'Bizu']
 canonical_url: false
 description: "Uma diretiva que ajuda muito ao fazer modais"
 ---
-asdasd
 
-Estava eu hoje fazendo o componente de modal no meu amigo [Zilla](https://medium.com/techatquero/design-system-conectando-desenvolvedores-e-designers-51d2e5ac96d5) (Design System da [@queroedu](https://www.linkedin.com/company/queroedu)), eis que cheguei na parte interessante dos modais, o comportamento de fechar
+Estava eu hoje fazendo o componente de modal no meu amigo [Zilla](https://medium.com/techatquero/design-system-conectando-desenvolvedores-e-designers-51d2e5ac96d5) (Design System da [@queroedu](https://www.linkedin.com/company/queroedu)), eis que cheguei na parte interessante dos modais, o comportamento de fechar.
 
 A "mágica" por trás dos modais. Quando se quer fechar um modal, normalmente, existem dois caminhos:
 
-* Botão de fechar que fica no topo do modal
-  * Ao clicar emite o evento de closed e voilà, o componente pai pode fechar o componente e fim do clico
-* Ao clicar no overlay (a parte escura externa ao conteúdo do modal, também chamada de backdrop em alguns lugares)
-  *  Quando o usuário clica no overlay, emite o evento de closed para o componente pai. Porém, é aqui que mora o
+* Botão de fechar que fica no topo do modal: Ao clicar emite o evento de closed e voilà, o componente pai pode fechar o componente e fim do clico
+* Click no overlay (a parte escura externa ao conteúdo do modal, também chamada de backdrop em alguns lugares): Quando o usuário clica no overlay, emite o evento de closed para o componente pai. Porém, é aqui que mora o
 perigo... Vamos ver se é tão facil fazer quanto falar
 
 Veja o código a seguir, praticamente resumindo que eu expliquei no segundo ponto da lista
