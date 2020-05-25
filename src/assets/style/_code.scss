@@ -3,7 +3,8 @@ code {
 }
 
 /* Inline code */
-:not(pre) > code[class*="language-"] {
+:not(pre) > code {
 	border-radius: var(--radius);
 	white-space: normal;
+	padding: .2em .5em;
 }
