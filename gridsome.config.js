@@ -31,27 +31,22 @@ module.exports = {
     {
       use: '@gridsome/plugin-sitemap',
       options: {
-        staticUrls: [
-          {
-            url: '/images/',
-            img: [
-              {
-                url: '/images/img1.jpg',
-                caption: 'Image One',
-                title: 'The Title of Image One',
-                geoLocation: 'Trondheim, Norway',
-                license: 'https://creativecommons.org/licenses/by/4.0/'
-              },
-              {
-                url: '/images/img2.jpg',
-                caption: 'Image Two',
-                title: 'The Title of Image Two',
-                geoLocation: 'Trondheim, Norway',
-                license: 'https://creativecommons.org/licenses/by/4.0/'
-              }
-            ]
+        config: {
+          '/': {
+            changefreq: 'weekly',
+            priority: 0.5
+          },
+          '/*': {
+            changefreq: 'weekly',
+            priority: 0.7
           }
-        ]
+        }
+      }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-54266208-2'
       }
     }
   ],
