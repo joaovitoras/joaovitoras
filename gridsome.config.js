@@ -28,6 +28,21 @@ module.exports = {
         },
       }
     },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        config: {
+          '/': {
+            changefreq: 'weekly',
+            priority: 0.5
+          },
+          '/*': {
+            changefreq: 'weekly',
+            priority: 0.7
+          }
+        }
+      }
+    }
   ],
 
   transformers: {
