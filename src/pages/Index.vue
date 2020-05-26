@@ -44,7 +44,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'joaovitoras Blog | Coisas aleatórias que da vontade de escrever.'
+    title: 'joaovitoras Blog'
   }
 }
 </script>
