@@ -7,7 +7,7 @@
 module.exports = {
   siteName: 'joaovitoras Blog',
   siteDescription: 'Blog pessoal para coisas aleatórias que me da vontade de escrever',
-  siteUrl: 'https://joaovitoras.github.io',
+  siteUrl: 'https://joaovitoras.com',
   templates: {
     Post: '/:title',
     Tag: '/tag/:id'
