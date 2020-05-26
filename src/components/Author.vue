@@ -8,7 +8,7 @@
 		</h1>
 
 		<p class="author__intro">
-			Blog pessoal para coisas aleatórias que me da vontade de escrever.
+			Blog para coisas aleatórias que da vontade de escrever.
 		</p>
 
 		<p class="author__links">

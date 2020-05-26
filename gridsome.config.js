@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'joaovitoras (João Vitor A. S.) blog',
+  siteName: 'joaovitoras Blog',
   siteDescription: 'Blog pessoal para coisas aleatórias que me da vontade de escrever',
   siteUrl: 'https://joaovitoras.github.io',
   templates: {
