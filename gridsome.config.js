@@ -9,8 +9,8 @@ module.exports = {
   siteDescription: 'Blog pessoal para coisas aleatórias que me da vontade de escrever',
   siteUrl: 'https://joaovitoras.com',
   templates: {
+    Tag: '/tag/:id',
     Post: '/:title',
-    Tag: '/tag/:id'
   },
   plugins: [
     {
@@ -30,18 +30,6 @@ module.exports = {
     },
     {
       use: '@gridsome/plugin-sitemap',
-      options: {
-        config: {
-          '/': {
-            changefreq: 'weekly',
-            priority: 0.5
-          },
-          '/*': {
-            changefreq: 'weekly',
-            priority: 0.7
-          }
-        }
-      }
     },
     {
       use: '@gridsome/plugin-google-analytics',
