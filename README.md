@@ -4,7 +4,7 @@
 [![joaovitoras's github stats](https://github-readme-stats.vercel.app/api?username=joaovitoras&count_private=true&show_icons=true&include_all_commits=true&theme=monokai)](joaovitoras.com)
  -->
 <div align="center">
-  <a href="https://github.com/Rodolfo-Santos">
+  <a href="https://github.com/joaovitoras">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=joaovitoras&count_private=true&show_icons=true&include_all_commits=true&theme=monokai"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaovitoras&layout=compact&langs_count=8&theme=monokai"/>
 </div>
