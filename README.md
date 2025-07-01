@@ -6,8 +6,8 @@
 <div align="center">
   <a href="https://github.com/joaovitoras">
   <img height="180em" src="https://github-readme-stats-seven-topaz-11.vercel.app/api?username=joaovitoras&count_private=true&show_icons=true&include_all_commits=true&theme=dracula&exclude_repo=personal-data"/>
-  <img height="180em" src="https://github-readme-stats-seven-topaz-11.vercel.app/api/top-langs/?username=joaovitoras&layout=compact&langs_count=8&theme=dracula&exclude_repo=personal-data"/>
-</div>
+<!--   <img height="180em" src="https://github-readme-stats-seven-topaz-11.vercel.app/api/top-langs/?username=joaovitoras&layout=compact&langs_count=8&theme=dracula&exclude_repo=personal-data"/>
+</div> -->
 <br/>
   
 <div align="center"> 
